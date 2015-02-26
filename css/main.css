@@ -1,3 +1,23 @@
+h4 {
+  text-align: center; }
 
+.hero {
+  text-align: center;
+  margin: 90px 0 35px; }
+  .hero img {
+    width: 40%;
+    margin-bottom: 35px; }
+    @media screen and (max-width: 468px) {
+      .hero img {
+        width: 80%; } }
+  .hero form {
+    margin-bottom: 35px; }
+  .hero input[type="text"] {
+    height: 35px;
+    width: 250px; }
+  .hero input[type="submit"] {
+    margin-bottom: 2px;
+    height: 35px;
+    background: lightgray; }
 
 /*# sourceMappingURL=main.css.map */

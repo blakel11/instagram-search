@@ -1,0 +1,32 @@
+h4 {
+	text-align: center;
+}
+
+.hero {
+	text-align: center;
+	margin: 90px 0 35px;
+
+	img {
+		width: 40%;
+		margin-bottom: 35px;
+
+		@media screen and (max-width: 468px) {
+			width: 80%;
+		}
+	}
+
+	form {
+		margin-bottom: 35px;
+	}
+
+	input[type="text"] {
+		height: 35px;
+		width: 250px;
+	}
+
+	input[type="submit"] {
+		margin-bottom: 2px;
+		height: 35px;
+		background: lightgray;
+	}
+}
