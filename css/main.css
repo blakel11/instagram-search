@@ -20,4 +20,11 @@ h4 {
     height: 35px;
     background: lightgray; }
 
+.images {
+  text-align: center;
+  margin: 20px 0; }
+  .images img {
+    width: 80%;
+    height: auto; }
+
 /*# sourceMappingURL=main.css.map */
